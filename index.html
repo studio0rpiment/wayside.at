@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wayside - AR Experience</title>
+  <style>
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      
+      body {
+          font-family: 'Arial', sans-serif;
+          background: linear-gradient(135deg, #4889C8, #BE69A9, #009449);
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          text-align: center;
+      }
+      
+      .container {
+          max-width: 70vw;
+          padding: 2rem;
+          
+      }
+      .contentContainer {
+          max-width: 50vw;
+          padding: 2rem;
+          margin: 0 auto; /* Centers horizontally */
+         text-align: center; 
+          
+      }
+      
+      .logo {
+          width: 70vw;
+          height: auto;
+          margin-bottom: 2rem;
+      }
+      
+      h1 {
+          font-size: 3rem;
+          margin-bottom: 1rem;
+          font-weight: bold;
+      }
+      
+      h2 {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+      }
+      
+      p {
+          font-size: 1.2rem;
+          margin-bottom: 2rem;
+          opacity: 0.9;
+          width: auto;
+      }
+      
+      .button {
+          display: inline-block;
+          background: rgba(255, 255, 255, 0.2);
+          color: white;
+          padding: 1rem 2rem;
+          border-radius: 1rem;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 1.1rem;
+          transition: all 0.3s ease;
+          border: 2px solid rgba(255, 255, 255, 0.3);
+      }
+      
+      .button:hover {
+          background: rgba(255, 255, 255, 0.3);
+          transform: translateY(-2px);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+      <img src="wayside-bw.png" alt="Wayside Logo" class="logo">
+      
+      <div class="contentContainer">
+      <p><h3>Wayside is an AR app designed by Andrew Kastner, an artist-in-residence at Kenilworth Aquatic Gardens in partnership with Capital Fringe. His residency has been focused on researching the history and climate change impacts to the park and transforming them into artistic interpretations within three themes:  time, seasons, and moments.</h3></p>
+
+      <!-- <h2>Kenilworth Aquatic Gardens</h2> -->
+      <p>The button below takes you to the Kenilworth Aquatic Gardens App designed for mobile use inside the park. It is a geo-landscape AR experience that asks you to move through real places to see, feel, and connect to place.</p>
+      <a href="https://kenilworth.wayside.at" class="button">Access Experience</a>
+
+      </div>
+  </div>
+</body>
+</html>
