@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/WaysideKenilworthFlyer.pdf",
+      "destination": "/assets/WaysideKenilworthFlyer.pdf"
+    }
+  ]
+}
